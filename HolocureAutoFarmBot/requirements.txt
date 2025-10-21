@@ -1,6 +1,0 @@
-# requirements
-pyautogui
-keyboard
-numpy
-opencv_python
-pydirectinput
