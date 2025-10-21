@@ -1,0 +1,18 @@
+Making a Bot for Holo cure
+
+Main Menu (Complete) -
+Click start - Done
+Select Ame
+Select stage mode
+Select grassy plains
+Select go
+
+In Game - 
+Move Away from Closest enemy within a certain range
+pick up anvils/upgrades
+
+Weapons/Items 
+Be able to differentiate which anvil type
+Prioratize Weapon Collabs
+Weapon Collab upgrades > Weapon Upgrades > Character specific upgrades > Random
+Study Glasses > Credit Card > Random
