@@ -80,5 +80,5 @@ def run_main_menu_script():
     time.sleep(0.5)
 
     nav = MainMenu()
-    print("Bot Starting...")
+    print("Bot Starting....")
     nav.mainmenu_nav()
