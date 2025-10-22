@@ -61,23 +61,23 @@ class MainMenu:
         pydirectinput.press('space')
 
         if step_number == 0:
-            time.sleep(1)
+            time.sleep(0.5)
         elif step_number == 2:
-            time.sleep(1)
+            time.sleep(0.5)
             pydirectinput.press('space')
             pydirectinput.press('space')
         else:
-            time.sleep(1)
+            time.sleep(0.5)
 
 def run_main_menu_script():
     print("running script in...")
-    time.sleep(1)
+    time.sleep(0.5)
     print("3")
-    time.sleep(1)
+    time.sleep(0.5)
     print("2")
-    time.sleep(1)
+    time.sleep(0.5)
     print("1")
-    time.sleep(1)
+    time.sleep(0.5)
 
     nav = MainMenu()
     print("Bot Starting...")

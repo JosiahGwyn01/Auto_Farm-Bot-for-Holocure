@@ -39,17 +39,17 @@ def main():
             # Continuous state checking loop
             while not keyboard.is_pressed('q'):
                 print("Detecting Game State...")
-                time.sleep(1)
+                time.sleep(0.5)
                 state_detector = GameState()
                 current_state = state_detector.detect_state()
-                time.sleep(2)
+                time.sleep(0.5)
                 if current_state == 'Main Menu':
                     run_main_menu_script()
                 elif current_state == 'In Game':
                     run_in_game_script()  
                 else:
                     print("Unknown state, waiting...")
-                    time.sleep(2)
+                    time.sleep(0.5)
                     
             break  
             
@@ -57,7 +57,7 @@ def main():
             print("Terminating Program...")
             return
             
-        time.sleep(0.1)
+        time.sleep(0.5)
     
     print("Program Terminated")
     
